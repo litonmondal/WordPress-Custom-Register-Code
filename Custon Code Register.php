@@ -1,5 +1,5 @@
 //Custom Post
-
+<?php
 add_action( 'init', 'my_theme_custom_post' );
 function my_theme_custom_post() {
     register_post_type( 'cpt',
@@ -13,7 +13,7 @@ function my_theme_custom_post() {
         )
     );
 }
-
+?>
 
 //Custopm Post Loop
 
